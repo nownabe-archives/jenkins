@@ -1,0 +1,18 @@
+base:
+  users:
+    USERNAME:
+      github_user: GITHUB_USERNAME
+      groups: wheel
+      password: PASSWORD
+
+  mailto:
+    root: EMAIL
+
+object_storage:
+  access_key: YOUR_ACCESS_KEY
+  secret_key: YOUR_SECRET_KEY
+  
+backup:
+  schedule: 5 3 * * *
+  bucket: test.jenkins.backup
+  expire: 7
