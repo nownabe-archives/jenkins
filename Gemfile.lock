@@ -16,7 +16,7 @@ GEM
       schash (~> 0.1.0)
       specinfra (>= 2.31.0, < 3.0.0)
       thor
-    itamae-plugin-recipe-idcf-backup_to_object_storage (0.1.0)
+    itamae-plugin-recipe-idcf-backup_to_object_storage (0.1.4)
       itamae
     itamae-plugin-recipe-nownabe_centos7_base (0.0.8)
       activesupport
