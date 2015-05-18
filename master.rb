@@ -41,7 +41,7 @@ node.reverse_merge!(
           path: "/var/lib/jenkins-backup/",
           bucket: node[:backup][:bucket],
           expire: node[:backup][:expire],
-          command: "#{jenkins_backup_path} /var/lib/jenkins /var/lib/jenkins-backup/jenkins_`date +%Y%m%d%H%M`.tar.gz"
+          command: "#{jenkins_backup_path} /var/lib/jenkins /var/lib/jenkins-backup/jenkins_`date +\\%Y\\%m\\%d\\%H\\%M`.tar.gz"
         }
       ]
     }
